@@ -1,350 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title> Adi </title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adarsh Chaudhary | Software Engineer</title>
+  <meta name="description" content="Adarsh Chaudhary is a backend and AI engineer on the Search team at Atlassian, working on the service behind search in Jira and Confluence and building AI agents and workflows. Previously Software Engineer at MindTickle. IIT Patna CSE, CodeChef 5-star, Codeforces Expert.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#080A1A">
+  <link rel="canonical" href="https://adarshkc.github.io/">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 
-        <!-- Icon css link -->
-        <link href="vendors/material-icon/css/materialdesignicons.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="vendors/linears-icon/style.css" rel="stylesheet">
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        
-        <!-- Extra plugin css -->
-        <link href="vendors/owl-carousel/assets/owl.carousel.css" rel="stylesheet">
-        <link href="vendors/animate-css/animate.css" rel="stylesheet">
-        
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/colors/default.css" title="default">
-        <link rel="alternate stylesheet" href="css/colors/orange.css" title="orange">
-        <link rel="alternate stylesheet" href="css/colors/pink.css" title="pink">
-        <link rel="alternate stylesheet" href="css/colors/violet.css" title="violet">
-        <link rel="alternate stylesheet" href="css/colors/blue.css" title="blue">
-        <link rel="alternate stylesheet" href="css/colors/past.css" title="past">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body class="light_bg" data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="80" data-scroll-animation="true">
-       
-        <div id="preloader">
-            <div id="preloader_spinner">
-                <div class="spinner"></div>
-            </div>
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Adarsh Chaudhary | Software Engineer">
+  <meta property="og:description" content="Backend and AI engineer on the Search team at Atlassian. Previously Software Engineer at MindTickle.">
+  <meta property="og:url" content="https://adarshkc.github.io/">
+  <meta property="og:image" content="https://adarshkc.github.io/img/adarsh.jpg">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Martian+Mono:wdth,wght@75..112.5,100..800&display=swap" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Adarsh Chaudhary",
+    "url": "https://adarshkc.github.io/",
+    "image": "https://adarshkc.github.io/img/adarsh.jpg",
+    "jobTitle": "Software Engineer",
+    "worksFor": { "@type": "Organization", "name": "Atlassian" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Indian Institute of Technology Patna" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Bangalore", "addressCountry": "IN" },
+    "sameAs": [
+      "https://www.linkedin.com/in/adarshchaudhary/",
+      "https://github.com/AdarshKC",
+      "https://www.codechef.com/users/adarsh_kc",
+      "https://codeforces.com/profile/Adarsh_kc",
+      "https://www.instagram.com/_adarsh_kc_/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to content</a>
+
+  <!-- ============ Terminal progress bar (also the site nav) ============ -->
+  <header class="termbar" id="termbar">
+    <span class="termbar__pct" aria-hidden="true"><span class="termbar__arrow">&#10140;</span> <b data-pct>0</b>%</span>
+    <nav class="termbar__path" aria-label="Sections">
+      <a href="#top" data-section="top">~</a><a href="#work" data-section="work">work</a><a href="#skills" data-section="skills">skills</a><a href="#projects" data-section="projects">projects</a><a href="#contests" data-section="contests">contests</a><a href="#education" data-section="education">education</a><a href="#contact" data-section="contact">contact</a>
+    </nav>
+    <div class="termbar__track" aria-hidden="true"></div>
+    <span class="termbar__left" aria-hidden="true"><b data-left>100</b>% to go</span>
+    <a class="termbar__resume" href="Adarsh_Chaudhary_Resume.pdf" target="_blank" rel="noopener">resume.pdf</a>
+  </header>
+
+  <!-- ============ Hero ============ -->
+  <section class="hero wrap" id="top" aria-label="Introduction">
+    <div class="hero__text">
+      <p class="prompt" aria-hidden="true"><span class="prompt__sign">&gt;</span> whoami</p>
+      <h1 class="hero__name">
+        <span class="sr-only">Adarsh Chaudhary</span>
+        <span class="type" aria-hidden="true">
+          <span class="type__ghost">Adarsh<br>Chaudhary</span>
+          <span class="type__live" data-type="Adarsh|Chaudhary">Adarsh<br>Chaudhary</span>
+        </span>
+      </h1>
+      <p class="hero__lede">Backend and AI engineer on the Search team at <strong>Atlassian</strong>. I work on the service behind search in Jira and Confluence, which handles billions of requests, and I build AI agents and the workflows they run.</p>
+      <div class="hero__actions">
+        <a class="btn btn--star" href="mailto:adarshrohit217@gmail.com">Email me</a>
+        <a class="btn btn--line" href="Adarsh_Chaudhary_Resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+      </div>
+      <ul class="hero__links">
+        <li><a href="https://github.com/AdarshKC" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/adarshchaudhary/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.codechef.com/users/adarsh_kc" target="_blank" rel="noopener">CodeChef</a></li>
+        <li><a href="https://codeforces.com/profile/Adarsh_kc" target="_blank" rel="noopener">Codeforces</a></li>
+        <li><a href="https://www.instagram.com/_adarsh_kc_/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+
+    <figure class="fetch window" aria-label="Profile summary">
+      <figcaption class="window__bar"><span>adarsh@atlassian: ~</span></figcaption>
+      <div class="fetch__body">
+        <p class="fetch__cmd" aria-hidden="true"><span class="prompt__sign">$</span> neofetch</p>
+        <div class="fetch__grid">
+          <img class="fetch__photo" src="img/adarsh.jpg" width="960" height="1200" alt="Adarsh Chaudhary, smiling, with headphones around his neck">
+          <dl class="fetch__info">
+            <div class="fetch__host"><dt class="sr-only">User</dt><dd><b>adarsh</b>@<b>atlassian</b></dd></div>
+            <div><dt>Role</dt><dd>Software Engineer, Search</dd></div>
+            <div><dt>Before</dt><dd>Software Engineer, MindTickle</dd></div>
+            <div><dt>Location</dt><dd>Bangalore, India</dd></div>
+            <div><dt>Degree</dt><dd>B.Tech CSE, IIT Patna</dd></div>
+          </dl>
         </div>
-        
-        <!--================ Frist hader Area =================-->
-        <header class="header_area">
-            <div class="container">
-                <nav class="navbar navbar-default">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/Villains-Logo.png" alt="" style="width: 100px; height: auto;"></a>
-                    </div>
+        <div class="fetch__swatches" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+    </figure>
+  </section>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="#about">ABOUT ME </a></li>
-                            <li><a href="#skill">Skill</a></li>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#service">PROJECTS</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </nav>
-            </div>
+  <main>
+    <!-- ============ Work ============ -->
+    <section class="section wrap" id="work" aria-labelledby="work-title">
+      <header class="section__head">
+        <h2 class="sec-title" id="work-title"><span aria-hidden="true">~/</span>work</h2>
+        <p class="comment"># Backend and platform work, mostly where the product meets other systems.</p>
+      </header>
+
+      <article class="job job--now">
+        <header class="job__head">
+          <h3 class="job__org"><a href="https://www.atlassian.com" target="_blank" rel="noopener">Atlassian</a></h3>
+          <p class="job__role">Software Engineer, Search</p>
+          <p class="job__when"><span class="status">running</span> Jul 2025 to now</p>
         </header>
-        <!--================End Footer Area =================-->
-        
-        <!--================Total container Area =================-->
-        <div class="container main_container">
-            <div class="content_inner_bg row m0">
-                <section class="about_person_area pad" id="about">
-                    <div class="row">
-                        <div class="col-md-12" align="center">
-                            <div class="person_img">
-                                <img src="img/img.JPG" alt="">
-                                <a class="download_btn" href="vendors/res.pdf" target="_blank" style="margin-bottom: 20px;"><span>Download Resume</span></a>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="row person_details">
-                                <h3>Hi I'm <span>Adarsh Chaudhary</span></h3>
-                                <h4>CSE Undergrad from IIT Patna</h4>
-                                <p style="font-size: 18px;">I love to deal with real life problems and have keen interest in Web-development, Computer Vision (Image Processing) and Competitive Programming. Exploring different aspects of any field is the only thing i do..!</p><br>
-                                <!--<div class="person_information">
-                                    <ul>
-                                        <li>DOB</li>
-                                        <li>Nationality</li>
-                                        <li>Phone</li>
-                                        <li>Email</li>
-                                    </ul>
-                                    <ul>
-                                        <li>21/07/2000</li>
-                                        <li>Citizen of India</li>
-                                        <li>+91 8827275145</li>
-                                        <li>adarsh.cs17@iitp.ac.in</li>
-                                    </ul>
-                                </div>
-                                --><ul class="social_icon">
-                                    <li><a href="https://www.facebook.com/adarsh217" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/adarshchaudhary/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="https://www.github.com/AdarshKC" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    <li><a href="mailto:adarshrohit217@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                                    <li><a href="tel:+918827275145" target="_blank"><i class="fa fa-phone"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="myskill_area pad" id="skill">
-                    <!--<div class="main_title">
-                        <h2>My Skills</h2>
-                    </div>-->
-                    <div class="row">
-                        <div class="col-md-6 wow fadeInUp animated">
-                            <div class="main_title">
-                                <h2>My Skills</h2>
-                            </div><!--
-                            <div class="skill_text">
-                                <h4 style="text-decoration: underline;">Languages</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loren Ipsum has been the industry's standard dummy text.</p>
-                            </div>-->
-                            <div class="skill_item_inner" align="center">
-                                <div class="single_skill">
-                                    <h4>HTML, CSS, JavaScript</h4>
-                                </div><br>
-                                <div class="single_skill">
-                                    <h4>PHP, MySQL</h4>
-                                    <!--<div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress_parcent"><span class="counter">85</span>%</div>
-                                        </div>
-                                    </div>-->
-                                </div><br>
-                                <div class="single_skill">
-                                    <h4>C, C++, Python</h4>
-                                </div><br>
-                                <div class="single_skill">
-                                    <h4>Logisim, LATEX</h4>
-                                </div><br>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow fadeInUp animated">
-                            <div class="main_title">
-                                <h2>My CP Profiles</h2>
-                            </div><!--
-                            <div class="skill_text">
-                                <h4 style="text-decoration: underline;">Softwares</h4>
-                            </div>-->
-                            <div class="skill_item_inner" align="center">
-                                <div class="single_skill">
-                                    <a href="https://www.codechef.com/users/adarsh_kc" target="_blank"><h4>CodeChef</h4></a>
-                                </div><div class="single_skill"><br>
-                                    <a href="http://codeforces.com/profile/Adarsh_kc" target="_blank"><h4>CodeForces</h4></a>
-                                </div><div class="single_skill"><br>
-                                    <a href="https://www.hackerrank.com/adarshrohit217" target="_blank"><h4>HackerRank</h4></a>
-                                </div><div class="single_skill"><br>
-                                    <a href="https://uhunt.onlinejudge.org/id/965898" target="_blank"><h4>Uhunt</h4></a>
-                                </div><div class="single_skill"><br>
-                                    <a href="https://www.hackerearth.com/@adarshrohit217" target="_blank"><h4>HackerEarth</h4></a>
-                                </div><div class="single_skill"><br>
-                                    <a href="https://a2oj.com/profile?Username=Adarsh_kc" target="_blank"><h4>A2oJ</h4></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="education_area pad" id="education">
-                    <div class="main_title">
-                        <h2>Education</h2>
-                    </div>
-                    <div class="education_inner_area">
-                        <div class="education_item wow fadeInUp animated" data-line="E">
-                            <h6>2017-Current</h6>
-                            <a href="https://www.iitp.ac.in"><h4>College</h4></a>
-                            <h5>Indian Institute of Technology Patna(IIT Patna)</h5>
-                            <p><b>Currently in 4th Sem of Computer Science and Engineering.<!-- BTech with a CPI of 8.57/10--></b></p>
-                        </div>
-                        <div class="education_item wow fadeInUp animated" data-line="D">
-                            <h6>2015-2017</h6>
-                            <a href="#"><h4>High School</h4></a>
-                            <h5>Shakti Shanti Academy, Aami</h5>
-                            <p><b>Passed AISSCE 2017(CBSE Class 12 Board) with 92%</b></p>
-                        </div>
-                        <div class="education_item wow fadeInUp animated" data-line="U">
-                            <h6>2014-2015</h6>
-                            <a href="#"><h4>Secondary School</h4></a>
-                            <h5>Children Delight School, Chapra</h5>
-                            <p><b>Class 10 Examination passed with 9.4cgpa</b></p>
-                        </div>
-                    </div>
-                </section>
-                <section class="service_area" id="service" style="background: url('img/bg.jpg'); background-size: cover;background-repeat: no-repeat;">
-                    <div class="main_title">
-                        <h2 style="color: #fff;">PROJECTS</h2>
-                    </div>
-                    <div class="service_inner row">
-                        <div class="col-md-6">
-                            <div class="service_item wow fadeIn animated">
-                                <img src="img/nss.png" alt="Shop" aria-hidden="true"/>
-                                <a href="https://github.com/AdarshKC/NSS-Website"><h4>NSS IITP Website</h4></a>
-                            <!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            --></div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="service_item wow fadeIn animated">
-                                <img src="img/saar.png" alt="Shop" aria-hidden="true"/>
-                                <a href="https://github.com/AdarshKC/SAAR-IITP"><h4>SAAR IITP Website</h4></a>
-                            <!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            --></div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="service_item wow fadeIn animated">
-                                <img src="img/now.png" alt="Shop" aria-hidden="true"/>
-                                <a href="https://github.com/AdarshKC/Codechef-Chapter-IITP"><h4>Codechef Chapter: IITP Website</h4></a>
-                            <!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            --></div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="service_item wow fadeIn animated">
-                                <img src="img/ted.png" alt="Shop" aria-hidden="true"/>
-                                <a href="https://github.com/AdarshKC/TedxIITPatna"><h4>TEDx IITP Website</h4></a>
-                           <!--     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            --></div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="service_item wow fadeIn animated">
-                                <i class="fa fa-mobile" aria-hidden="true"></i>
-                                <a href="https://github.com/AdarshKC/Shinchan"><h4>Shinchan Game</h4></a>
-                            <!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            --></div>
-                        </div><!--
-                        <div class="col-md-6">
-                            <div class="service_item wow fadeIn animated">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                <a href="#"><h4>Website Development</h4></a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elits, sed do mod, tempor ets incididunt ut labore et dolore magna aliqua. Ut enim adtiesm minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            </div>
-                        </div>-->
-                    </div>
-                </section>
+        <ul class="tree">
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>Search for Jira and Confluence</h4>
+              <p>Backend engineer on the search service that answers every search in Jira and Confluence.</p>
             </div>
-        </div>
-        <!--================End Total container Area =================-->
-        
-        <!--================footer Area =================-->
-        <footer class="footer_area">
-            <div class="footer_inner">
-                <div class="container"><!--
-                    <img src="img/footer-logo.png" alt="">-->
-                    <!--<ul class="social_icon">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                        <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                    </ul>-->
-                </div>
+            <ul class="badges badges--metric"><li><b>billions</b> of search requests</li></ul>
+          </li>
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>Cloud-agnostic search</h4>
+              <p>Adopting Google Cloud alongside AWS for the search service, so it isn&rsquo;t tied to a single cloud provider.</p>
             </div>
-            <div class="footer_copyright">
-                <div class="container">
-                    <div class="pull-left">
-                        <h5><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p></h5>
-                    </div>
-                    <div class="pull-right">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#about">Back to Top</a></li>
-                            <!--<li><a href="#">Education</a></li>
-                            <li><a href="#">SERVICES</a></li>
-                            <li><a href="#">PORTFOLIO</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">CONTACT</a></li>-->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        
-        <!--================End footer Area =================-->
-        
-        <div class="envalab-style-switch" id="switch-style">
-            <div class="switch-button" id="toggle-switcher"><i class="fa fa-gears"></i></div>
-            <div class="switched-options">
-                <div class="config-title">Color Panel </div>
-                <ul class="styles">
-                    <li>
-                        <a href=# onclick='return setActiveStyleSheet("default"),!1' title="default"></a>
-                    </li>
-                    <li>
-                        <a href=# onclick='return setActiveStyleSheet("orange"),!1' title="orange"></a>
-                    </li>
-                    <li>
-                        <a href=# onclick='return setActiveStyleSheet("pink"),!1' title="pink"></a>
-                    </li>
-                    <li>
-                        <a href=# onclick='return setActiveStyleSheet("violet"),!1' title="violet"></a>
-                    </li>
-                    <li>
-                        <a href=# onclick='return setActiveStyleSheet("blue"),!1' title="blue"></a>
-                    </li>
-                    <li>
-                        <a href=# onclick='return setActiveStyleSheet("past"),!1' title="past"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery-2.1.4.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Extra plugin js -->
-        <script src="vendors/counter-up/waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        
-        <script src="vendors/style-switcher/styleswitcher.js"></script>
-        <script src="vendors/style-switcher/switcher-active.js"></script>
-        
-        <script src="vendors/animate-css/wow.min.js"></script>
+            <ul class="badges badges--metric"><li><b>AWS</b> + <b>GCP</b></li></ul>
+          </li>
+        </ul>
+      </article>
 
-        <!--gmaps Js-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-        <script src="js/gmaps.min.js"></script>
-        
-        <!-- contact js -->
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/contact.js"></script>
-        
-        <script src="js/theme.js"></script>
-    </body>
+      <article class="job">
+        <header class="job__head">
+          <h3 class="job__org"><a href="https://www.linkedin.com/company/mindtickle" target="_blank" rel="noopener">MindTickle</a></h3>
+          <p class="job__role">Software Engineer</p>
+          <p class="job__when">Jul 2021 to Jun 2025, Pune</p>
+        </header>
+
+        <ul class="tree">
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>Resumable bulk uploads</h4>
+              <p>Rebuilt the uploader so large batches upload asynchronously and pick up where they left off after a failure.</p>
+            </div>
+            <ul class="badges badges--metric"><li><b>+35%</b> throughput</li><li><b>&minus;25%</b> upload errors</li></ul>
+          </li>
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>WhatsApp notifications</h4>
+              <p>Designed an in-house WhatsApp integration with rate limiting, error handling and cost controls built in.</p>
+            </div>
+            <ul class="badges badges--metric"><li><b>50k+</b> messages a day</li></ul>
+          </li>
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>Snowflake ingestion</h4>
+              <p>Automated data ingestion from Mixpanel, Jira and Freshdesk into Snowflake using AWS Lambda and Workato, for product analytics.</p>
+            </div>
+            <ul class="badges badges--metric"><li><b>&minus;60%</b> manual processing time</li></ul>
+          </li>
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>System monitoring</h4>
+              <p>Set up deeper monitoring in Datadog and Sumo Logic, then used it to find and fix key API bottlenecks.</p>
+            </div>
+            <ul class="badges badges--metric"><li><b>+20%</b> API performance</li></ul>
+          </li>
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>Production issues</h4>
+              <p>Led the response to urgent production issues, automating data migrations and shipping preventive fixes.</p>
+            </div>
+            <ul class="badges badges--metric"><li><b>0</b> SLA breaches</li></ul>
+          </li>
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>Office files in the player</h4>
+              <p>Led the proof of concept and rollout for opening PowerPoint, Excel and Word files in the player through Microsoft&rsquo;s WOPI discovery APIs.</p>
+            </div>
+          </li>
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>Egnyte content sync</h4>
+              <p>Built content sync from Egnyte into the platform, migrating file tags and metadata and keeping both sides consistent.</p>
+            </div>
+          </li>
+          <li class="tree__item">
+            <div class="tree__text">
+              <h4>Content Center</h4>
+              <p>Designed and built the front-end architecture of MindTickle&rsquo;s internal file repository.</p>
+            </div>
+          </li>
+        </ul>
+      </article>
+
+      <div class="jobs-early">
+        <article class="job job--early">
+          <header class="job__head">
+            <h3 class="job__org"><a href="https://www.linkedin.com/company/interviewbit/" target="_blank" rel="noopener">InterviewBit</a></h3>
+            <p class="job__role">Problem Setter Intern</p>
+            <p class="job__when">Nov 2020 to Feb 2021, remote</p>
+          </header>
+          <p>Wrote original contest problems and editorials in Python, C++ and JavaScript. Created the beginner JavaScript track, <a href="https://www.interviewbit.com/courses/fast-track-js/" target="_blank" rel="noopener">Fast Track JS</a>, which is live on the platform.</p>
+          <p class="job__link"><a href="https://drive.google.com/file/d/19HVniqCNK8qLuFzc0Lw0Fv3YHLeoAKPQ/view" target="_blank" rel="noopener">Internship certificate</a></p>
+        </article>
+
+        <article class="job job--early">
+          <header class="job__head">
+            <h3 class="job__org"><a href="https://www.linkedin.com/company/newzera" target="_blank" rel="noopener">Newzera</a></h3>
+            <p class="job__role">Software Engineer Intern</p>
+            <p class="job__when">May to Jun 2020, Indore</p>
+          </header>
+          <p>Detected the moment a storyline or event started trending and computed a trending score for it. Pulled data from news platform APIs into S3 with Lambda functions.</p>
+          <p class="job__link"><a href="https://drive.google.com/file/d/1TtdHiwoZY23aJ989Ck--LHCVPCg9onwp/view" target="_blank" rel="noopener">Internship certificate</a></p>
+        </article>
+      </div>
+
+      <div class="kudos">
+        <h3 class="kudos__title">// from people I&rsquo;ve worked with</h3>
+        <figure class="quote">
+          <blockquote><p>&ldquo;He wore multiple hats to deliver projects with high ownership.&rdquo;</p></blockquote>
+          <figcaption>Vikalp Singh, on working together in the Content team at MindTickle</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote><p>&ldquo;Adarsh excels at navigating complex code with ease, and his collaborative approach makes him an invaluable team member.&rdquo;</p></blockquote>
+          <figcaption>Kritivasas Shukla</figcaption>
+        </figure>
+        <p class="kudos__more">Full recommendations are on <a href="https://www.linkedin.com/in/adarshchaudhary/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ Skills ============ -->
+    <section class="section wrap" id="skills" aria-labelledby="skills-title">
+      <header class="section__head">
+        <h2 class="sec-title" id="skills-title"><span aria-hidden="true">~/</span>skills</h2>
+        <p class="comment"># What I reach for, grouped the way I think about it.</p>
+      </header>
+
+      <figure class="window code-window">
+        <figcaption class="window__bar"><span>stack.json</span></figcaption>
+        <dl class="stack">
+          <div class="stack__row"><dt>"languages"</dt><dd><span>"Go"</span><span>"Java"</span><span>"Python"</span><span>"C/C++"</span><span>"JavaScript"</span></dd></div>
+          <div class="stack__row"><dt>"ai"</dt><dd><span>"AI agents"</span><span>"Agentic workflows"</span></dd></div>
+          <div class="stack__row"><dt>"cloud"</dt><dd><span>"AWS Lambda"</span><span>"S3"</span><span>"Google Cloud"</span><span>"Workato"</span></dd></div>
+          <div class="stack__row"><dt>"data"</dt><dd><span>"Elasticsearch"</span><span>"PostgreSQL"</span><span>"MySQL"</span><span>"Redis"</span><span>"Snowflake"</span></dd></div>
+          <div class="stack__row"><dt>"messaging"</dt><dd><span>"Kafka"</span><span>"RabbitMQ"</span></dd></div>
+          <div class="stack__row"><dt>"apis"</dt><dd><span>"gRPC"</span><span>"GraphQL"</span><span>"REST"</span></dd></div>
+          <div class="stack__row"><dt>"observability"</dt><dd><span>"Datadog"</span><span>"Sumo Logic"</span></dd></div>
+          <div class="stack__row"><dt>"frontend"</dt><dd><span>"React"</span><span>"HTML"</span><span>"CSS"</span></dd></div>
+          <div class="stack__row"><dt>"basics"</dt><dd><span>"Data structures"</span><span>"Algorithms"</span><span>"DBMS"</span><span>"OS"</span></dd></div>
+        </dl>
+      </figure>
+    </section>
+
+    <!-- ============ Projects ============ -->
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
+      <header class="section__head">
+        <h2 class="sec-title" id="projects-title"><span aria-hidden="true">~/</span>projects</h2>
+        <p class="comment"># Built at IIT Patna, mostly for courses and the campus clubs I was part of.</p>
+      </header>
+
+      <!-- C to Java -->
+      <article class="show">
+        <figure class="show__visual" aria-label="Example: a C program and the Java the translator produces">
+          <div class="xlate">
+            <div class="window xlate__pane">
+              <div class="window__bar"><span>sum.c</span></div>
+<pre class="code"><code><span class="k">#include</span> <span class="s">&lt;stdio.h&gt;</span>
+
+<span class="t">int</span> <span class="f">main</span>() {
+    <span class="t">int</span> sum = <span class="n">0</span>;
+    <span class="k">for</span> (<span class="t">int</span> i = <span class="n">1</span>; i &lt;= <span class="n">10</span>; i++)
+        sum += i;
+    <span class="f">printf</span>(<span class="s">"%d\n"</span>, sum);
+    <span class="k">return</span> <span class="n">0</span>;
+}</code></pre>
+            </div>
+            <div class="xlate__arrow" aria-hidden="true">&darr; antlr4</div>
+            <div class="window xlate__pane">
+              <div class="window__bar"><span>Main.java</span></div>
+<pre class="code"><code><span class="k">public class</span> <span class="t">Main</span> {
+  <span class="k">public static</span> <span class="t">void</span> <span class="f">main</span>(<span class="t">String</span>[] a) {
+    <span class="t">int</span> sum = <span class="n">0</span>;
+    <span class="k">for</span> (<span class="t">int</span> i = <span class="n">1</span>; i &lt;= <span class="n">10</span>; i++)
+      sum += i;
+    System.out.<span class="f">printf</span>(<span class="s">"%d\n"</span>, sum);
+  }
+}</code></pre>
+            </div>
+          </div>
+          <figcaption class="show__caption">Example translation</figcaption>
+        </figure>
+        <div class="show__text">
+          <p class="show__when">2020</p>
+          <h3>C to Java translator</h3>
+          <p>Takes basic C programs and rewrites them as Java. An ANTLR4 context-free grammar builds the parse tree, and a post-order traversal emits the Java code node by node.</p>
+          <ul class="badges"><li>ANTLR4</li><li>Java</li><li>C</li><li>Compilers</li></ul>
+          <p class="show__links"><a href="https://github.com/AdarshKC/C_to_Java_Parser" target="_blank" rel="noopener">View code on GitHub</a></p>
+        </div>
+      </article>
+
+      <!-- Brick breaker -->
+      <article class="show show--flip">
+        <figure class="show__visual">
+          <div class="window game">
+            <div class="window__bar"><span>shinchan.html</span><span class="game__hint">mouse or &larr; &rarr; to play</span></div>
+            <canvas class="game__canvas" width="640" height="400" tabindex="0" aria-label="Brick breaker demo. Move the mouse over it, or focus it and use the left and right arrow keys, to control the paddle."></canvas>
+          </div>
+          <figcaption class="show__caption">A quick remake for this page. It plays itself until you take over.</figcaption>
+        </figure>
+        <div class="show__text">
+          <h3>Shinchan brick breaker</h3>
+          <p>A ball-and-paddle brick breaker built on the HTML canvas in plain JavaScript. You can steer with the keyboard or the mouse.</p>
+          <ul class="badges"><li>JavaScript</li><li>Canvas</li><li>HTML</li><li>CSS</li></ul>
+          <p class="show__links"><a href="https://github.com/AdarshKC/Shinchan" target="_blank" rel="noopener">View code on GitHub</a></p>
+        </div>
+      </article>
+
+      <!-- Leave portal -->
+      <article class="show">
+        <figure class="show__visual" aria-label="Illustration of the leave approval queue">
+          <div class="window leave" aria-hidden="true">
+            <div class="window__bar"><span>leave-portal / approvals</span></div>
+            <div class="leave__body">
+              <div class="leave__row">
+                <div><b>Casual leave</b><span>3 days, faculty</span></div>
+                <div class="leave__actions"><span class="pill pill--ok">Approve</span><span class="pill">Reject</span></div>
+              </div>
+              <div class="leave__row">
+                <div><b>Duty leave</b><span>1 day, staff</span></div>
+                <span class="pill pill--done">Approved</span>
+              </div>
+              <div class="leave__row">
+                <div><b>Medical leave</b><span>5 days, student</span></div>
+                <div class="leave__actions"><span class="pill pill--ok">Approve</span><span class="pill">Reject</span></div>
+              </div>
+              <div class="leave__row leave__row--admin">
+                <div><b>Admin</b><span>add employees, students and leave types</span></div>
+              </div>
+            </div>
+          </div>
+          <figcaption class="show__caption">Illustration of the approval queue</figcaption>
+        </figure>
+        <div class="show__text">
+          <p class="show__when">2019</p>
+          <h3>Online leave management portal</h3>
+          <p>Lets faculty, staff and students at IIT Patna apply for leave online and keep a record of it. Approvers accept or reject each request, and admins manage employees, students and leave types.</p>
+          <ul class="badges"><li>PHP</li><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+          <p class="show__links"><a href="https://github.com/AdarshKC/OnliveLeavePortal" target="_blank" rel="noopener">View code on GitHub</a></p>
+        </div>
+      </article>
+
+      <div class="more">
+        <p class="prompt" aria-hidden="true"><span class="prompt__sign">$</span> ls more/</p>
+        <ul class="more__list">
+          <li class="more__item">
+            <h3><a href="https://github.com/SAAR-IITP/SAAR-IITP" target="_blank" rel="noopener">saar-website</a></h3>
+            <p>Website and alumni database for the Students&rsquo; Association for Alumni Relations. I designed the schema and the interface, and worked on the back end.</p>
+          </li>
+          <li class="more__item">
+            <h3><a href="https://github.com/CodechefChapter-IITP/Codechef-Chapter-IITP" target="_blank" rel="noopener">codechef-chapter-portal</a></h3>
+            <p>Tutorials and level-wise practice problems for the competitive programming chapter at IIT Patna.</p>
+          </li>
+          <li class="more__item">
+            <h3><a href="https://github.com/AdarshKC/NSS-Website" target="_blank" rel="noopener">nss-website</a></h3>
+            <p>Events for NSS IIT Patna, plus a portal that tracks volunteers&rsquo; service hours with an admin view.</p>
+          </li>
+          <li class="more__item">
+            <h3><a href="https://github.com/VatsalSin/TedxIITPatna" target="_blank" rel="noopener">tedx-iitpatna</a></h3>
+            <p>Designed and built the front end of the official TEDxIITPatna site.</p>
+          </li>
+          <li class="more__item">
+            <h3>publication-portal</h3>
+            <p>A DBMS course project where faculty upload their publications and projects along with their collaborators. PHP and MySQL.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Contests ============ -->
+    <section class="section wrap" id="contests" aria-labelledby="contests-title">
+      <header class="section__head">
+        <h2 class="sec-title" id="contests-title"><span aria-hidden="true">~/</span>contests</h2>
+        <p class="comment"># Competitive programming, mostly from my years at IIT Patna.</p>
+      </header>
+
+      <div class="ratings">
+        <a class="rating rating--chef" href="https://www.codechef.com/users/adarsh_kc" target="_blank" rel="noopener">
+          <span class="rating__site">CodeChef</span>
+          <span class="rating__rank">5&#9733;</span>
+          <span class="rating__peak">peak rating 2016</span>
+        </a>
+        <a class="rating rating--cf" href="https://codeforces.com/profile/Adarsh_kc" target="_blank" rel="noopener">
+          <span class="rating__site">Codeforces</span>
+          <span class="rating__rank">Expert</span>
+          <span class="rating__peak">peak rating 1867</span>
+        </a>
+      </div>
+
+      <div class="window standings-window">
+        <div class="window__bar"><span>standings</span></div>
+        <div class="standings-scroll">
+          <table class="standings">
+            <thead>
+              <tr><th scope="col">Contest</th><th scope="col" class="num">Rank</th><th scope="col" class="num">Out of</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>ICPC Asia Amritapuri onsite regional, 2019</td><td class="num"><b>81</b></td><td class="num">313 teams</td></tr>
+              <tr><td><a href="https://www.codechef.com/rankings/ICPCIN19" target="_blank" rel="noopener">ICPC Asia online round, 2019</a></td><td class="num"><b>227</b></td><td class="num">4,401 teams</td></tr>
+              <tr><td>CodeAgon 2020, CodeNation&rsquo;s hiring challenge</td><td class="num"><b>80</b></td><td class="num">about 50,000</td></tr>
+              <tr><td><a href="https://www.codechef.com/rankings/AUG19A?search=adarsh_kc" target="_blank" rel="noopener">CodeChef August Challenge 2019, Division 1</a></td><td class="num"><b>139</b></td><td class="num">1,178</td></tr>
+              <tr><td><a href="https://codeforces.com/contest/1173/standings/participant/25505044#p25505044" target="_blank" rel="noopener">Codeforces Round #564, Division 2</a></td><td class="num"><b>323</b></td><td class="num">8,008</td></tr>
+              <tr><td>Google Kick Start 2019, Round A</td><td class="num"><b>384</b></td><td class="num">3,305</td></tr>
+              <tr><td>Inter IIT Tech Meet 2019, algorithms for a terrace-farming robot that moves across hilly ground and detects obstacles</td><td class="num"><b class="medal">Bronze</b></td><td class="num">medal</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="also">Also on <a href="https://www.hackerrank.com/adarshrohit217" target="_blank" rel="noopener">HackerRank</a> and <a href="https://www.hackerearth.com/@adarshrohit217" target="_blank" rel="noopener">HackerEarth</a>.</p>
+    </section>
+
+    <!-- ============ Education ============ -->
+    <section class="section wrap" id="education" aria-labelledby="education-title">
+      <header class="section__head">
+        <h2 class="sec-title" id="education-title"><span aria-hidden="true">~/</span>education</h2>
+      </header>
+
+      <ul class="schools">
+        <li class="school">
+          <h3><a href="https://www.iitp.ac.in" target="_blank" rel="noopener">Indian Institute of Technology Patna</a></h3>
+          <p>B.Tech in Computer Science and Engineering, CPI 7.88</p>
+          <p class="school__when">2017 to 2021</p>
+        </li>
+        <li class="school">
+          <h3>Shakti Shanti Academy, Aami</h3>
+          <p>Senior Secondary (CBSE), 92%</p>
+          <p class="school__when">2015 to 2017</p>
+        </li>
+      </ul>
+
+      <div class="campus">
+        <p>On campus I coordinated the Training and Placement Cell, hosted Apeireon, the CSE department&rsquo;s first coding fest, as overall fest coordinator, and was campus representative for CodeChef, Coding Blocks and Scaler Academy. I was also part of NJACK, SAAR, NSS, Anwesha and TEDxIITPatna.</p>
+        <p class="campus__certs">Certificates: HackerRank Problem Solving (2020), JPMorgan Chase Software Engineering Virtual Experience (2020).</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Contact ============ -->
+  <footer class="contact" id="contact">
+    <div class="wrap">
+      <h2 class="sec-title contact__title"><span aria-hidden="true">~/</span>contact</h2>
+      <p class="comment"># Email is the fastest way to reach me.</p>
+      <p class="contact__mail"><span class="prompt__sign" aria-hidden="true">$</span> <span aria-hidden="true">mail</span> <a href="mailto:adarshrohit217@gmail.com">adarshrohit217@gmail.com</a></p>
+
+      <ul class="contact__links">
+        <li><a href="https://www.linkedin.com/in/adarshchaudhary/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/AdarshKC" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.instagram.com/_adarsh_kc_/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="tel:+918827275145">+91 88272 75145</a></li>
+        <li><a href="Adarsh_Chaudhary_Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a></li>
+      </ul>
+
+      <p class="contact__fine">&copy; <span data-year>2026</span> Adarsh Chaudhary. The yellow and blue on this page are my CodeChef 5&#9733; and Codeforces Expert colours.</p>
+    </div>
+  </footer>
+
+  <!-- Intro: a fake judge run. Added and removed by js/main.js, skipped with reduced motion. -->
+  <template id="intro-tpl">
+    <div class="intro" aria-hidden="true">
+      <div class="intro__screen">
+        <p class="intro__line" data-at="0"><span class="prompt__sign">$</span> ./judge adarsh --problem portfolio</p>
+        <p class="intro__line" data-at="320">Compiling<span class="intro__dots"></span> <span class="ok">ok</span></p>
+        <p class="intro__line" data-at="600">Running on test 1<span class="intro__dots"></span> <span class="ok">passed</span></p>
+        <p class="intro__line" data-at="820">Running on test 2<span class="intro__dots"></span> <span class="ok">passed</span></p>
+        <p class="intro__line" data-at="1060">Running on test 3<span class="intro__dots"></span> <span class="err">Wrong answer</span></p>
+        <p class="intro__line intro__line--dim" data-at="1460">resuming from chunk 3<span class="intro__dots"></span></p>
+        <p class="intro__line" data-at="1760">Running on test 3<span class="intro__dots"></span> <span class="ok">passed</span></p>
+        <p class="intro__line intro__verdict" data-at="2060">Accepted</p>
+      </div>
+      <button class="intro__skip" type="button" tabindex="-1">skip</button>
+    </div>
+  </template>
+
+  <script src="js/main.js"></script>
+</body>
 </html>
